@@ -1,0 +1,75 @@
+
+body {
+
+  	font-family: 'Cormorant Garamond', serif;
+  	margin: 2em;
+  	color: #2d3c49
+}
+
+hr {
+	width: 99.8%;
+    border:solid 2px #02b3e4;
+}
+
+h2{
+	color: #02b3e4;
+	
+}
+
+h1{
+	color: #02b3e4;
+}
+
+h4{
+	color: orange;
+}
+
+h3{
+	color: orange;
+}
+
+.row{
+	padding: 10px;
+}
+
+p{
+	color: #02b3e4;
+}
+
+@media (max-width: 768px){
+	.featured-column{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+	}
+	.bottom-row{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+}
+
+@media (max-width: 414px){
+
+	
+
+	.top-row{
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+
+	.top-text{
+		text-align: center;
+	}
+
+	}
+
+}
+
+
+
+
+
